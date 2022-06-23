@@ -8,6 +8,7 @@ var schema = new mongoose.Schema({
         type: String,
     },
     gender : String,
+    gender2 : String,
     status : String
 })
 
