@@ -2,34 +2,25 @@
  <form action="/api/users" method="POST" id="add_user">
     <div class="new_user">
         <div class="form-group">
-            <label for="name" class="text-light">Formation</label>
-            <input type="text" name="name" value="" placeholder="*">
+            <label for="domaine" class="text-light">domaine</label>
+            <input type="text" name="domaine" value="" placeholder="*">
         </div>
         <div class="form-group">
-            <label for="Email" class="text-light">Personnalité</label>
-            <input type="text" name="email" value="">
+            <label for="question" class="text-light">Question</label>
+            <input type="text" name="question" value="">
 
         </div>
-        <div class="form-group">
-            <label for="gender" class="text-light">Adequation</label>
-            <input type="text" name="gender" value="" placeholder="*">
-        </div>
 
-        <div class="form-group">
-            <label for="gender" class="text-light">Autre</label>
-            <input type="text" name="gender2" value="" placeholder="*">
-        </div>
-        
 
         <div class="form-group">
             <label for="gender" class="text-light">Status</label>
             <div class="radio inline">
-                <input type="radio" id="radio-4" name="status" value="Active" >
-                <label for="radio-4" class="radio-label">Active</label>
+                <input type="radio" id="radio-4" name="status" value="Standard" >
+                <label for="radio-4" class="radio-label">Standard</label>
             </div>
             <div class="radio inline">
-                <input type="radio" id="radio-5" name="status" value="Inactive" >
-                <label for="radio-5" class="radio-label">Inactive</label>
+                <input type="radio" id="radio-5" name="status" value="Inédit" >
+                <label for="radio-5" class="radio-label">Inédit</label>
             </div>
         </div>
 

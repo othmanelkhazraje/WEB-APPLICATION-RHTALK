@@ -1,14 +1,12 @@
 const mongoose = require('mongoose');
 
 var schema = new mongoose.Schema({
-    name : {
+    domaine : {
         type : String,    
     },
-    email : {
+    question : {
         type: String,
     },
-    gender : String,
-    gender2 : String,
     status : String
 })
 
