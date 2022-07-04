@@ -12,7 +12,6 @@ exports.create = (req,res)=>{
     const user = new Userdb({
         domaine : req.body.domaine,
         question : req.body.question,
-
         status : req.body.status
     })
 
