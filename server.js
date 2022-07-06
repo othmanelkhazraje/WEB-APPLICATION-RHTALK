@@ -32,4 +32,4 @@ app.use('/js', express.static(path.resolve(__dirname, "assets/js")))
 // load routers
 app.use('/', require('./server/routes/router'))
 
-app.listen(PORT, ()=> { console.log(`Server is running on http://20.229.245.81:${PORT}`)});
+app.listen(PORT, ()=> { console.log(`Server is running on http://172.31.94.238:${PORT}`)});
